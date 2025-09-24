@@ -7,7 +7,9 @@ It automatically generates **project cards** from a list of GitHub repositories,
 
 ## Preview
 
-![Website Preview](raw.jpg)
+<p align="center">
+  <img src="raw.jpg" alt="Website Preview" width="600"/>
+</p>
 
 ---
 
