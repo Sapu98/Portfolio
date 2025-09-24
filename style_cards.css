@@ -1,0 +1,48 @@
+.education-cards .edu-card {
+  background: #2d2d2d;
+  color: #9ea09e;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.education-cards .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.education-cards .card-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.education-cards .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.education-cards ul li {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .education-cards .edu-card:hover {
+    box-shadow: 0 1px 1px 0 rgb(90, 77, 0);
+  }
+
+  .education-cards .edu-card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.project-grid { margin-top: 12px; }
+.project-card .project-card-desc { opacity: 0.95; }
